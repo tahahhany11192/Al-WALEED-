@@ -1,0 +1,73 @@
+:root {
+  --hayroo-dark: #111827;
+  --hayroo-soft: #f8fafc;
+  --hayroo-accent: #d97706;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+}
+
+.hayroo-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.hayroo-card:hover {
+  transform: translateY(-4px);
+  border-color: #d1d5db;
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.12);
+}
+
+.hayroo-btn {
+  border-radius: 12px;
+  background: var(--hayroo-dark);
+  color: #ffffff;
+  transition: transform 180ms ease, background 180ms ease;
+}
+
+.hayroo-btn:hover {
+  background: #1f2937;
+  transform: translateY(-1px);
+}
+
+.hayroo-input {
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  padding: 0.75rem 1rem;
+  outline: none;
+  transition: border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.hayroo-input:focus {
+  border-color: var(--hayroo-dark);
+  box-shadow: 0 0 0 3px rgba(17, 24, 39, 0.08);
+}
+
+.hayroo-hero {
+  min-height: 420px;
+  overflow: hidden;
+  border-radius: 0 0 28px 28px;
+}
+
+.hayroo-hero img {
+  height: 520px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .hayroo-hero {
+    min-height: 320px;
+    border-radius: 0 0 18px 18px;
+  }
+  .hayroo-hero img {
+    height: 360px;
+  }
+}
