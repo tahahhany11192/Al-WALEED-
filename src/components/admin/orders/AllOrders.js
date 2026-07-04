@@ -64,7 +64,7 @@ const AllCategory = (props) => {
   }
   return (
     <Fragment>
-      <div className="col-span-1 overflow-auto bg-white shadow-lg p-4">
+      <div className="col-span-1 bg-white rounded-2xl shadow-md p-3 sm:p-4 overflow-x-auto">
         <table className="table-auto border w-full my-2">
           <thead>
             <tr>
