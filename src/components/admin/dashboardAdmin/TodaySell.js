@@ -55,7 +55,7 @@ const SellTable = () => {
 
   return (
     <Fragment>
-      <div className="col-span-1 overflow-auto bg-white shadow-lg p-4">
+      <div className="col-span-1 bg-white rounded-2xl shadow-md p-3 sm:p-4 overflow-x-auto">
         <div className="text-2xl font-semibold mb-6 text-center">
           Today's Orders{" "}
           {data.totalOrders.Orders !== undefined ? ordersList().length : 0}
