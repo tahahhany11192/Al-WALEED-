@@ -1,5 +1,5 @@
 app = "hayroo-client"
-primary_region = "dcg"
+primary_region = "cdg"
 
 [build]
 
