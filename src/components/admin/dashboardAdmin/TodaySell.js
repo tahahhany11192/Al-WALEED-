@@ -60,7 +60,7 @@ const SellTable = () => {
           Today's Orders{" "}
           {data.totalOrders.Orders !== undefined ? ordersList().length : 0}
         </div>
-        <table className="table-auto border w-full my-2">
+        <table className="table-auto border w-full min-w-max my-2 text-sm">
           <thead>
             <tr>
               <th className="px-4 py-2 border">Products</th>
